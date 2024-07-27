@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(130, 19, 234);
+}
+
+p{
+    text-align: center;
+    color : rgb(30, 24, 24);
+}
+
+.post{
+    background-color: rgb(128, 171, 244);
+    border-radius: 10px;
+    border : 2px solid rgb(77, 17, 186);
+    width : 15%;
+    height : 175px;
+    margin-bottom : 7px;
+    list-style : none;
+}
+
+.post:hover{
+    scale : 1.1;
+}
+
+.author{
+    color : rgb(6, 6, 6);
+}
+
+form{
+    padding : 20px;
+    border : 2px solid black;
+    border-radius : 25px;
+    background-color : rgb(148, 100, 231);
+    margin-left : auto;
+    margin-right : auto;
+   
+}
+
+form p{
+    margin-bottom : 15px;
+}
+
+form label{
+    font-weight: bold;
+    color : whitesmoke;
+    display : block;
+}
+
+form input, form textarea{
+    width : 70%;
+    border : 2px solid rgb(26, 17, 54);
+    border-radius : 5px;
+    box-sizing : border-box;
+}
+
+form textarea{
+    resize : none;
+}
+
+.header{
+    display : flex;
+    width : 50%;
+    justify-content : space-around;
+    background-color: rgb(130, 19, 234);
+    color : white;
+    margin-top : 5%;
+    margin-bottom : 10%;
+    margin-right : auto;
+    margin-left : auto;
+}
+
+.header button{
+    padding : 10px 20px;
+    color : white;
+    background-color: rgb(143, 79, 202);
+    border : 2px solid black;
+    border-radius : 10px;
+    transition: background-color 0.3s;
+}
+
+.header button:hover{
+    background-color: #7c21c2;
+}
+
+.post-container{
+    display : flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    gap : 5px;
+    justify-content: space-around;
+}
+
+.container{
+    width : 100%;
+    height : 100%;
+    display : grid;
+    grid-template-columns : 8fr 2fr;
+    gap : 5px;
+}
+
+.btn-container{
+    display : flex;
+    justify-content: space-evenly;
+
+}
+
+.btn-container button{
+    padding : 5px 10px;
+    border-radius : 5px;
+    background-color: rgb(143, 79, 202);
+    color : white;
+    transition: background-color 0.3s;
+}
+
+.btn-container button:hover{
+    background-color: #7c21c2;
+}
+
+
